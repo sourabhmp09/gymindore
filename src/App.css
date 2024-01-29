@@ -440,6 +440,10 @@ overflow: hidden;
 .Footer {
   background-color: var(--darklight-color);
   color: #fff;
+
+}
+.Footer h5 {
+  color: #ff662d;
 }
 .Footer a {
   color: #fff;
