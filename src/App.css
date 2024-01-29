@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* overflow: hidden; */
+  /* overflow: scroll; */
 }
 .bb {
   font-family: "Poppins", sans-serif;
@@ -69,6 +69,7 @@ ul {
 
 .navbar-toggler {
   background-color: orange !important;
+  margin-right: 15px;
 }
 
 .fa-bars {
@@ -183,6 +184,9 @@ span {
   color: #fff;
   padding: 4rem 0;
   position: relative;
+  /* overflow: hidden; */
+overflow: hidden;
+
 }
 .fitness_col3 img {
   border-radius: 10px;
@@ -209,7 +213,8 @@ span {
   font-weight: 700 !important;
 }
 .fitness_col4 {
-  padding: 1rem 4rem;
+  /* padding: 1rem 4rem; */
+  padding: 1rem 1rem;
 }
 .fitness_col4 p {
   padding: 0.4rem 0;
@@ -530,7 +535,10 @@ span {
   }
 
 
- 
+  .collapse.show {
+   
+    margin-left: 20px;
+  }
 
   .Hero_col1 h1 {
       font-size: 3.4rem
@@ -552,7 +560,8 @@ span {
   }
 
   .Fitness_Goal {
-      padding: 2rem 1rem
+      padding: 2rem 1rem;
+      overflow: hidden;
   }
 
 
@@ -569,3 +578,14 @@ span {
 @media only screen and (min-width: 768px) and (max-width: 992px) {
  
 }
+
+
+@media only screen and (max-width: 1000px) {
+  .Hero2_col2 {
+    display: none;
+  }
+  .img-hide {
+    display: none;
+  }
+}
+

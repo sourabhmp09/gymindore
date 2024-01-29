@@ -58,6 +58,8 @@ const Hero = () => {
             </div>
           </div>
         </SwiperSlide>
+
+
         <SwiperSlide>
       
           <div className="container-fluid Hero Hero1">
@@ -104,6 +106,8 @@ const Hero = () => {
             </div>
           </div>
         </SwiperSlide>
+
+        
         <SwiperSlide>
          
           <div className="container-fluid Hero2">
@@ -144,8 +148,8 @@ const Hero = () => {
                   data-aos-easing="ease-in-out"
                   
                 >
-                  <div className="Hero2_col2">
-                    <img src={img2} alt="" className="img-fluid" />
+                  <div className="Hero2_col2 img-hide">
+                    <img src={img2} alt="" className="img-fluid img-hide" />
                   </div>
                 </div>
               </div>

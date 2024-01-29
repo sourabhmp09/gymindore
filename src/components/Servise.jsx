@@ -77,7 +77,7 @@ const Servise = () => {
             <img
               src={img3}
               alt=""
-              className="img-fluid"
+              className="img-fluid p-2"
             />
           </div>
         </div>

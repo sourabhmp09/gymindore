@@ -32,37 +32,11 @@ const Navbar = () => {
             </span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            {/* <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li >
-                <a className="nav-link " aria-current="page" href="#">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  About Us
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Program
-                </a>
-              </li>{" "}
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Memberships
-                </a>
-              </li>{" "}
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Testimonials
-                </a>
-              </li>
-            </ul> */}
+            
 
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 py-2 py-md-3 py-lg-0">
               <li
-                className="nav-item aos-init"
+                className="nav-item aos-init "
                 data-aos="fade-down"
                 data-aos-duration={800}
                 data-aos-easing="ease-in-out"

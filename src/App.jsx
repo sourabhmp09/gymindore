@@ -39,16 +39,19 @@ function App() {
       {/* <TestoMonial/> */}
       <Test/>
 
+
       <BrowserRouter>
         <Routes>
 
           <Route path="signup" element={<SignUp/>}/>
                
-        </Routes><Footer/>
+        </Routes>
+
+        <Footer/>
 
       </BrowserRouter>
  
-      <Test3/>
+      {/* <Test3/> */}
     </>
   );
 }
