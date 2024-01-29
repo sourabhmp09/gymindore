@@ -274,6 +274,7 @@ overflow: hidden;
   background-color: var(--darklight-color);
   color: #fff;
   padding: 6rem 0;
+  overflow: hidden;
 }
 .form-check-input {
   border-radius: 100%!important;
@@ -376,6 +377,7 @@ overflow: hidden;
 .testimonial {
   background: var(--dark-color);
   color: #fff;
+  overflow: hidden;
 }
 
 .testimonial_col2 img {
@@ -586,6 +588,12 @@ overflow: hidden;
   }
   .img-hide {
     display: none;
+  }
+
+  body{
+    
+    /* overflow:hidden; */
+
   }
 }
 

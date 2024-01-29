@@ -8,8 +8,8 @@ import Hero from "./components/Hero";
 import FitnessGoal from "./components/FitnessGoal";
 import BestOffers from "./components/BestOffers";
 import BestPlan from "./components/BestPlan";
+
 import TestoMonial from "./components/TestoMonial";
-import Test from "./components/Test";
 import Servise from "./components/Servise";
 import Footer from "./components/Footer";
 import SignUp from "./components/SignUp";
@@ -37,7 +37,7 @@ function App() {
 
      
       {/* <TestoMonial/> */}
-      <Test/>
+      <TestoMonial/>
 
 
       <BrowserRouter>
